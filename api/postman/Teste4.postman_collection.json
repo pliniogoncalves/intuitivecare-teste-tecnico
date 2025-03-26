@@ -1,0 +1,29 @@
+{
+    "info": {
+      "_postman_id": "c9f3e7e1-1e2a-4b3d-a758-123456789",
+      "name": "Teste4",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Busca Operadoras",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:5000/search?q=saude",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["search"],
+            "query": [
+              {
+                "key": "q",
+                "value": "saude"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
